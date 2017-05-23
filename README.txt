@@ -19,8 +19,8 @@ in northern central Chile. The model has also been tested on the John Day
 
 %% Model structure %%
 
-This code should be cited as:
-
+The DOI for this code is:
+10.5281/zenodo.582652
 
 The model has seven parameters that are calibrated using this model based
 upon Monte Carlo simulations and Dotty Plots.
