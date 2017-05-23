@@ -1,0 +1,32 @@
+This Snow Cover Runoff (SCR) model uses monthly calculations of snow cover
+frequency (SCF) from the Modis instrument along with previous monthly streamflow to predict
+monthly streamflow with a one month lead time.
+ 
+This code requires only Google Sheets with the Solver Add-on activated. 
+https://chrome.google.com/webstore/detail/solver/iennicjichkeiajiflbcmaaohildohpb?hl=en
+
+rio Elqui above La laguna Reservoir
+https://docs.google.com/spreadsheets/d/1cB-d9m9NAuuX0VMrykbsUyH1P27uCnsMx7SaCzWjJqA/edit?usp=sharing
+
+rio Aragon en Spain
+https://docs.google.com/spreadsheets/d/1UTRNoeowkCZusPaxzzBz_8TJN7nPr-CYSq5kMT9b4us/edit?usp=sharing
+
+John Day River, Oregon USA
+https://docs.google.com/spreadsheets/d/10FraJW3kEmkccMMDru_Y60f7SNcTx7azp2Q1knQV4ag/edit?usp=sharing
+
+The SCR model is based upon the paper:
+Sproles, E.A., Kerr, T., Orrego Nelson, C. Water Resources Management
+(2016) 30: 2581. doi:10.1007/s11269-016-1271-4
+
+SCF is calculated using Google Earth Engine,
+and the code can be found on this same github site. 
+
+This sample code is set up to run for the La Laguna sub-watershed of the r?o Elqui
+in northern central Chile. The model has also been tested on the John Day
+(easten Oregon, USA) and the r?o Aragon in northern Spain.
+
+%% Model structure %%
+
+The DOI for this code is:
+10.5281/zenodo.582652
+
